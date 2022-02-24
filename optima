@@ -1,0 +1,80 @@
+// Typographic Keyboard Layout
+
+default partial
+xkb_symbols "base" {
+
+    // 1st keyboard row
+    key <TLDE> { [  NoSymbol,    NoSymbol,              approxeq,            dead_grave  ] }; // "~" // ≈ `
+    key <AE01> { [  NoSymbol,    NoSymbol,           onesuperior,            exclamdown  ] }; // "1" // ¹ ¡
+    key <AE02> { [  NoSymbol,    NoSymbol,           twosuperior,               onehalf  ] }; // "2" // ² ½
+    key <AE03> { [  NoSymbol,    NoSymbol,         threesuperior,              onethird  ] }; // "3" // ³ ⅓
+    key <AE04> { [  NoSymbol,    NoSymbol,                dollar,            onequarter  ] }; // "4" // $ ¼
+    key <AE05> { [  NoSymbol,    NoSymbol,                 U2030,              NoSymbol  ] }; // "5" // ‰
+    key <AE06> { [  NoSymbol,    NoSymbol,               uparrow,       dead_circumflex  ] }; // "6" // ↑ ^
+    key <AE07> { [  NoSymbol,    NoSymbol,              question,          questiondown  ] }; // "7" // ? ¿
+    key <AE08> { [  NoSymbol,    NoSymbol,              infinity,             oneeighth  ] }; // "8" // ∞ ⅛
+    key <AE09> { [  NoSymbol,    NoSymbol,             leftarrow,                 U2039  ] }; // "9" // ← ‹
+    key <AE10> { [  NoSymbol,    NoSymbol,            rightarrow,                 U203A  ] }; // "0" // → ›
+    key <AE11> { [  NoSymbol,    NoSymbol,                emdash,                endash  ] }; // "-" // — –
+    key <AE12> { [  NoSymbol,    NoSymbol,              notequal,             plusminus  ] }; // "=" // ≠ ±
+
+    // 2nd keyboard row
+    key <AD01> { [  NoSymbol,    NoSymbol,              NoSymbol,            dead_breve  ] }; // "q" //   ˘
+    key <AD02> { [  NoSymbol,    NoSymbol,             checkmark,                 U2303  ] }; // "w" // ✓ ⌃
+    key <AD03> { [  NoSymbol,    NoSymbol,              EuroSign,                 U2325  ] }; // "e" // € ⌥
+    key <AD04> { [  NoSymbol,    NoSymbol,            registered,        dead_abovering  ] }; // "r" // ® °
+    key <AD05> { [  NoSymbol,    NoSymbol,             trademark,              NoSymbol  ] }; // "t" // ™
+    key <AD06> { [  NoSymbol,    NoSymbol,                 U0463,                 U0462  ] }; // "y" // ѣ Ѣ
+    key <AD07> { [  NoSymbol,    NoSymbol,                 U0475,                 U0474  ] }; // "u" // ѵ Ѵ
+    key <AD08> { [  NoSymbol,    NoSymbol,             braceleft,                   bar  ] }; // "i" // { |
+    key <AD09> { [  NoSymbol,    NoSymbol,            braceright,                 U0472  ] }; // "o" // }
+    key <AD10> { [  NoSymbol,    NoSymbol,               minutes,               seconds  ] }; // "p" // ′ ″
+    key <AD11> { [  NoSymbol,    NoSymbol,                 slash,             backslash  ] }; // "[" // / \
+    key <AD12> { [  NoSymbol,    NoSymbol,                 slash,             backslash  ] }; // "]" //
+
+    // 3rd keyboard row
+    key <AC01> { [  NoSymbol,    NoSymbol,                    at,                 U2318  ] }; // "a" // @ ⌘
+    key <AC02> { [  NoSymbol,    NoSymbol,               section,                 U21E7  ] }; // "s" // § ⇧
+    key <AC03> { [  NoSymbol,    NoSymbol,                degree,              division  ] }; // "d" // ° ÷
+    key <AC04> { [  NoSymbol,    NoSymbol,              sterling,              NoSymbol  ] }; // "f" // £
+    key <AC05> { [  NoSymbol,    NoSymbol,              NoSymbol,                 UF8FF  ] }; // "g" //   
+    key <AC06> { [  NoSymbol,    NoSymbol,                 U20BD,      dead_doubleacute  ] }; // "h" // ₽ ˝
+    key <AC07> { [  NoSymbol,    NoSymbol,    doublelowquotemark,              NoSymbol  ] }; // "j" // „
+    key <AC08> { [  NoSymbol,    NoSymbol,           bracketleft,    doublelowquotemark  ] }; // "k" // [ „
+    key <AC09> { [  NoSymbol,    NoSymbol,          bracketright,   leftdoublequotemark  ] }; // "l" // ] “
+    key <AC10> { [  NoSymbol,    NoSymbol,   leftsinglequotemark,        dead_diaeresis  ] }; // ";" // ‘ ¨
+    key <AC11> { [  NoSymbol,    NoSymbol,            apostrophe,              quotedbl  ] }; // "'" // ' "
+
+    // 4th keyboard row
+    key <AB01> { [  NoSymbol,    NoSymbol,              NoSymbol,          dead_cedilla  ] }; // "z" //   ¸
+    key <AB02> { [  NoSymbol,    NoSymbol,              multiply,        periodcentered  ] }; // "x" // × ·
+    key <AB03> { [  NoSymbol,    NoSymbol,             copyright,                  cent  ] }; // "c" // © ¢
+    key <AB04> { [  NoSymbol,    NoSymbol,             downarrow,            dead_caron  ] }; // "v" // ↓ ˇ
+    key <AB05> { [  NoSymbol,    NoSymbol,                ssharp,                 U1E9E  ] }; // "b" // ß ẞ
+    key <AB06> { [  NoSymbol,    NoSymbol,              NoSymbol,            dead_tilde  ] }; // "n" //   ~
+    key <AB07> { [  NoSymbol,    NoSymbol,                 U2212,    enfilledcircbullet  ] }; // "m" // − •
+    key <AB08> { [  NoSymbol,    NoSymbol,                  less,         guillemotleft  ] }; // "," // < «
+    key <AB09> { [  NoSymbol,    NoSymbol,               greater,        guillemotright  ] }; // "." // > »
+    key <AB10> { [  NoSymbol,    NoSymbol,             ampersand,                 grave  ] }; // "/" // & `
+
+    // 5th keyboard row
+    key <SPCE> { [     space,       space,          nobreakspace,          nobreakspace  ] }; // " " //     (nbsp)
+    // Reference
+    // U+2030 PER MILLE SIGN
+    // U+2039 SINGLE LEFT-POINTING ANGLE QUOTATION MARK
+    // U+203A SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
+    // U+2303 UP ARROWHEAD
+    // U+2325 MAC OPTION KEY
+    // U+0463 CYRILLIC SMALL LETTER YAT
+    // U+0462 CYRILLIC CAPITAL LETTER YAT
+    // U+0475 CYRILLIC SMALL LETTER IZHITSA
+    // U+0474 CYRILLIC CAPITAL LETTER IZHITSA
+    // U+0473 CYRILLIC SMALL LETTER FITA
+    // U+0472 CYRILLIC CAPITAL LETTER FITA
+    // U+2318 PLACE OF INTEREST SIGN
+    // U+2300 DIAMETER SIGN
+    // U+F8FF APPLE LOGO
+    // U+20BD RUSSIAN RUBLE
+    // U+1E9E LATIN CAPITAL LETTER SHARP S
+    // U+2212 MINUS SIGN
+};

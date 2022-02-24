@@ -1,0 +1,14 @@
+// Typographic Keyboard Layout
+
+default partial
+xkb_symbols "base" {
+
+    key <AE02> { [  NoSymbol,             at,           NoSymbol,          NoSymbol  ] }; // "2" // @
+    key <AE03> { [  NoSymbol,     numbersign,           NoSymbol,          NoSymbol  ] }; // "3" // #
+    key <AE04> { [  NoSymbol,         dollar,           NoSymbol,          NoSymbol  ] }; // "4" // $
+
+    key <AB08> { [  comma,         semicolon,           NoSymbol,          NoSymbol  ] }; // "," // , ;
+    key <AB09> { [  period,            colon,           NoSymbol,          NoSymbol  ] }; // "." // . :
+    key <AB10> { [  Cyrillic_yu, Cyrillic_YU,          ampersand,          NoSymbol  ] }; // "/" // ю &
+    key <AD12> { [  Cyrillic_be, Cyrillic_BE,  Cyrillic_hardsign, Cyrillic_HARDSIGN  ] }; // "]" // б ъ
+};
